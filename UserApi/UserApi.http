@@ -1,0 +1,38 @@
+@UserApi_HostAddress = http://localhost:5282
+
+### Get all users
+GET {{UserApi_HostAddress}}/users
+Accept: application/json
+
+###
+
+### Add a new user
+POST {{UserApi_HostAddress}}/users
+Content-Type: application/json
+
+{
+  "name": "Ion Popescu",
+  "email": "ion.popescu@mail.com"
+}
+
+###
+
+### Get user by ID
+GET {{UserApi_HostAddress}}/users/1
+Accept: application/json
+
+###
+
+### Update user by ID
+PUT {{UserApi_HostAddress}}/users/1
+Content-Type: application/json
+
+{
+  "name": "Ionel Popescu",
+  "email": "ionel@mail.com"
+}
+
+###
+
+### Delete user by ID
+DELETE {{UserApi_HostAddress}}/users/1

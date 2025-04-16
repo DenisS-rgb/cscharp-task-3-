@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GEypJMXqaFk=",
+  "success": true,
+  "projectFilePath": "/Users/user/Desktop/DIgitalPark/C#/UserApi/UserApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/user/.nuget/packages/microsoft.aspnetcore.openapi/9.0.3/microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
