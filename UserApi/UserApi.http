@@ -15,10 +15,8 @@ Content-Type: application/json
   "email": "ion.popescu@mail.com"
 }
 
-###
-
 ### Get user by ID
-GET {{UserApi_HostAddress}}/users/1
+GET {{UserApi_HostAddress}}/users
 Accept: application/json
 
 ###
@@ -35,4 +33,5 @@ Content-Type: application/json
 ###
 
 ### Delete user by ID
-DELETE {{UserApi_HostAddress}}/users/1
+DELETE {{UserApi_HostAddress}}/users/5
+
